@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="es-mx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Estudiante</title>
+    <link rel="icon" type="image/jpeg" sizes="16x16" href="assets/img/favicon.jpg">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/-Filterable-Cards--Filterable-Cards.css">
+    <link rel="stylesheet" href="assets/css/3-Columns-Info-Icons.css">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css">
+    <link rel="stylesheet" href="assets/css/Container.css">
+    <link rel="stylesheet" href="assets/css/Features-Image-icons.css">
+    <link rel="stylesheet" href="assets/css/Features-Image-images.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <nav id="right-menu-nav" class="right-menu-nav is-active" style="right: -226px;">
+        <div class="scroll-parent">
+            <div class="scroll-container" data-lenis-prevent>
+                <div class="container-subtitle">
+                    <p id="subtitle" class="subtitle">Alumno</p>
+                </div>
+                <nav class="anchors-table" role="navigation">
+                    <ul>
+                        <li class="anchors-table-item anchors-table-item-passive">
+                            <div class="anchors-table-item-icon">
+                                <a class="link-icon" href="#constancia-section"></a>
+                            </div>
+                            <div class="anchors-table-item-title">
+                                <p class="anchors-table-item-title-p">
+                                    <a href="#constancia-section" class="anchors-table-item-title-p-a">Constancia de estudios</a>
+                                </p>
+                            </div>
+                        </li>
+                        <div class="line-break-item"></div>
+                        <li class="anchors-table-item anchors-table-item-passive">
+                            <div class="anchors-table-item-icon">
+                                <a class="link-icon" href="#tramite-section"></a>
+                            </div>
+                            <div class="anchors-table-item-title">
+                                <p class="anchors-table-item-title-p">
+                                    <a href="#tramite-section" class="anchors-table-item-title-p-a">Trámite IMSS</a>
+                                </p>
+                            </div>
+                        </li>
+                        <div class="line-break-item"></div>
+                        <li class="anchors-table-item anchors-table-item-passive">
+                            <div class="anchors-table-item-icon">
+                                <a class="link-icon" href="#beca-section"></a>
+                            </div>
+                            <div class="anchors-table-item-title">
+                                <p class="anchors-table-item-title-p">
+                                    <a href="#beca-section" class="anchors-table-item-title-p-a">Becas</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </nav>
+    <div id="sideBar">
+        <div id="sidebar-container">
+            <div class="title-sidebar">
+                <span>Ir hacia</span>
+                <button type="button" class="btn-apps-close" id="btn-close-apps" onclick="mostrarSideBar()">x</button>
+            </div>
+            <div class="title-category">
+                <span>Alumnos</span>
+            </div>
+                <div class="categories">
+                    <a href="https://sito.utleon.edu.mx/" target="_blank">
+                        <div class="app-container">
+                            <img src="assets/img/sito-icon-student.png" alt="Icon" width="20" height="20">
+                            <p>SITO</p>
+                        </div>
+                    </a>
+                    <a href="http://www.bibliotecaecest.mx/" target="_blank">
+                        <div class="app-container">
+                            <img src="assets/img/book-icon.png" alt="Icon" width="20" height="20">
+                            <p>Biblioteca</p>
+                        </div>
+                    </a>
+                    <a href="https://aulaut.utleon.edu.mx/" target="_blank">
+                        <div class="app-container">
+                            <img src="assets/img/classroom-icon.png" alt="Icon" width="20" height="20">
+                            <p>Aula Virtual</p>
+                        </div>
+                    </a>
+                    <a href="https://outlook.office365.com/mail/" target="_blank">
+                        <div class="app-container">
+                            <img src="assets/img/email-icon.png" alt="Icon" width="20" height="20">
+                            <p>Correo electrónico</p>
+                        </div>
+                    </a>
+                </div>
+            <div class="title-category">
+                <span>Profesores y Administrativos</span>
+            </div>
+                <div class="categories">
+                    <a href="https://sito.utleon.edu.mx/" target="_blank">
+                        <div class="app-container">
+                            <img src="assets/img/sito-icon-teacher.png" alt="Icon" width="20" height="20">
+                            <p>SITO</p>
+                        </div> 
+                    </a>
+                    <a href="http://sgi.utleon.edu.mx/" target="_blank">
+                        <div class="app-container">
+                            <img src="assets/img/SGI-icon.png" alt="Icon" width="20" height="20">
+                            <p>SGI</p>
+                        </div>
+                    </a>
+                    <a href="http://zammad.utleon.edu.mx/#login" target="_blank">
+                        <div class="app-container">
+                            <img src="assets/img/table-icon.png" alt="Icon" width="20" height="20">
+                            <p>DSI</p>
+                        </div>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm py-3 position-z">
+        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="index.html"><img class="img-fluid img-logo" src="assets/img/LOGO%20UTL%20BLANCO.png" width="226" height="64" alt="Logo" loading="lazy"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-3">
+                <ul class="navbar-nav d-flex flex-row justify-content-center align-content-center container-fluid">
+                    <li class="nav-item text-info-emphasis text-opacity-25 nav-bar-links"><a class="nav-link fs-5 fw-normal text-center link-light text-navbar-links" href="index.html" data-bs-theme="light" style="font-size: 10px;">Inicio</a></li>
+                    <li class="nav-item text-info-emphasis text-opacity-25 nav-bar-links"><a class="nav-link fs-5 fw-normal text-center link-light text-navbar-links nav-link nav-link" href="pg-quienes-somos.html" data-bs-theme="light">¿Quiénes somos?</a></li>
+                    <li class="nav-item text-info-emphasis text-opacity-25 nav-bar-links"><a class="nav-link fs-5 fw-normal text-center link-light text-navbar-links nav-link nav-link" href="pg-estudiante.html">Estudiante</a></li>
+                    <li class="nav-item text-info-emphasis text-opacity-25 nav-bar-links"><a class="nav-link fs-5 fw-normal text-center link-light text-navbar-links nav-link nav-link nav-link" href="pg-aspirante.html">Aspirante</a></li>
+                    <li class="nav-item text-info-emphasis text-opacity-25 nav-bar-links"><a class="nav-link fs-5 fw-normal text-center link-light text-navbar-links nav-link nav-link" href="pg-docente.html">Docente</a></li>
+                    <li class="nav-item text-info-emphasis text-opacity-25 nav-bar-links"><a class="nav-link fs-5 fw-normal text-center link-light text-navbar-links nav-link nav-link" href="pg-egresado.html">Egresado</a></li>
+                    <li class="nav-item text-info-emphasis text-opacity-25 nav-bar-links"><a class="nav-link fs-5 fw-normal text-center link-light text-navbar-links nav-link nav-link" href="pg-empresario.html">Empresario</a></li>
+                    <li class="nav-item text-info-emphasis text-opacity-25 nav-bar-links"><a class="nav-link fs-5 fw-normal text-center link-light text-navbar-links nav-link nav-link" href="pg-administrativo.html">Administrativo</a></li>
+                </ul>
+            </div><button id="btn-clic-apps" class="btn-apps" type="button" onclick="mostrarSideBar()"><img src="assets/img/apps-icon.png" width="32" height="32" /></button>
+        </div>
+    </nav>
+    <div class="carousel slide position-z-carousel" data-bs-ride="false" id="carousel-1">
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/carousel-estudiante1.jpg" style="filter: brightness(50%);" alt="Slide Image"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/img-2.jpeg" alt="Slide Image" style="filter: brightness(50%);"></div>
+            <div class="carousel-item"><img class="w-100 d-block" src="assets/img/img-3.jpg" alt="Slide Image" style="filter: brightness(50%);"></div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev" style="padding-top: 0px;margin-top: 100px;"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next" style="margin-top: 100px;padding-top: 0px;"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+        <div class="carousel-indicators"><button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1"></button> <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2"></button></div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="div-titles-heading sections" id="constancia-section">
+                    <h1 class="fw-bolder text-dark titles-heading">CONSTANCIA DE ESTUDIOS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="padding-top: 30px;">
+            <div class="col offset-xxl-0 container-img-quienessomos" style="/*padding: 30px;*/border-right: 0px solid var(--bs-paleta-azul);"><img id="img-constancia" src="assets/img/imagenConstancia.png" width="500px" align="center"></div>
+            <div class="col" style="padding: 30px;text-align: justify;">
+                <div id="history-item-1" class="history-item">
+                    <p style="text-align: justify;font-size: 18px;">El proceso y emisión del documento de constancia de estudios se realizará por medio electrónico y de manera digital, debido al periodo de contingencia actual.<br>Se emite con los datos de la persona de la Institución que validada la información, así como, un código de identificación en el documento para cualquier cotejo o validación posterior, en caso de ser requerido por quién recibe el documento.<br>En caso de requerir una constancia de estudios, bajo las especificaciones expuestas, deberás realizar el siguiente proceso.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="div-titles-heading" style="border-bottom-width: 0px;">
+                    <h1 class="fw-bolder text-dark titles-heading" style="font-size: 40px;">PROCESO</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="box-shadow: 0px 0px var(--bs-light-text-emphasis);padding-top: 30px;">
+            
+            <div class="col">
+                <button class="btnModal-proceso-constancia" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#PagoModal">   
+                    <div class="card" style="border-radius: 10px;width: 250px;box-shadow: inset 0px 0px var(--bs-light-text-emphasis);border-color: var(--bs-tertiary-color);margin: auto;">
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-paleta-azul);width: 250px;font-size: 25px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-secondary-color);height: 130px;">
+                            <h4 class="card-title" style="color: var(--bs-light-bg-subtle);text-align: center;font-size: 100px;font-weight: bold;">1</h4>
+                        </div>
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-light-border-subtle);width: 250px;font-size: 25px;border: 1px solid var(--bs-tertiary-color);border-top-left-radius: 0px;border-top-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-tertiary-color);height: 100px;">
+                            <h1 id="h1" class="h1" style="text-align: center;font-weight: bold;">PAGO</h1>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            
+            <div class="col">
+                <button class="btnModal-proceso-constancia" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#RegistroModal">      
+                    <div class="card" style="border-radius: 10px;width: 250px;box-shadow: inset 0px 0px var(--bs-light-text-emphasis);border-color: var(--bs-tertiary-color);margin: auto;">
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-paleta-azul);width: 250px;font-size: 25px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-secondary-color);height: 130px;">
+                            <h4 class="card-title" style="color: var(--bs-light-bg-subtle);text-align: center;font-size: 100px;font-weight: bold;">2</h4>
+                        </div>
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-light-border-subtle);width: 250px;font-size: 25px;border: 1px solid var(--bs-tertiary-color);border-top-left-radius: 0px;border-top-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-tertiary-color);height: 100px;">
+                            <h1 id="h-1" class="h1" style="text-align: center;font-weight: bold;">REGISTRO</h1>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btnModal-proceso-constancia" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#CorreoModal">   
+                    <div class="card" style="border-radius: 10px;width: 250px;box-shadow: inset 0px 0px var(--bs-light-text-emphasis);border-color: var(--bs-tertiary-color);margin: auto;">
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-paleta-azul);width: 250px;font-size: 25px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-secondary-color);height: 130px;">
+                            <h4 class="card-title" style="color: var(--bs-light-bg-subtle);text-align: center;font-size: 100px;font-weight: bold;">3</h4>
+                        </div>
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-light-border-subtle);width: 250px;font-size: 25px;border: 1px solid var(--bs-tertiary-color);border-top-left-radius: 0px;border-top-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-tertiary-color);height: 100px;">
+                            <h1 id="h-2" class="h1" style="text-align: center;font-weight: bold;">CORREO</h1>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col" id="card">
+                <button class="btnModal-proceso-constancia" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#EntregaModal">   
+                    <div class="card" style="border-radius: 10px;width: 250px;box-shadow: inset 0px 0px var(--bs-light-text-emphasis);border-color: var(--bs-tertiary-color);margin: auto;">
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-paleta-azul);width: 250px;font-size: 25px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-secondary-color);height: 130px;">
+                            <h4 class="card-title" style="color: var(--bs-light-bg-subtle);text-align: center;font-size: 100px;font-weight: bold;">4</h4>
+                        </div>
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-light-border-subtle);width: 250px;font-size: 25px;border: 1px solid var(--bs-tertiary-color);border-top-left-radius: 0px;border-top-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-tertiary-color);height: 100px;">
+                            <h1 id="h-3" class="h1" style="text-align: center;font-weight: bold;">ENTREGA</h1>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="div-titles-heading sections" id="tramite-section">
+                    <h1 class="fw-bolder text-dark titles-heading">TRÁMITE IMMS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="div-titles-heading" style="border-bottom-width: 0px;">
+                    <h1 class="fw-bolder text-dark titles-heading" style="font-size: 40px;">PROCESO</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 20px;">
+        <div class="row" style="box-shadow: 0px 0px var(--bs-light-text-emphasis);">
+            <div class="col">
+                <a href="https://serviciosdigitales.imss.gob.mx/gestionAsegurados-web-externo/asignacionNSS" target="_blank" style="text-decoration: none;">
+                    <div class="card" style="border-radius: 10px;width: 250px;box-shadow: inset 0px 0px var(--bs-light-text-emphasis);border-color: var(--bs-tertiary-color);margin: auto;">
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-paleta-verde);width: 250px;font-size: 25px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-secondary-color);height: 130px;">
+                            <h4 class="card-title" style="color: var(--bs-light-bg-subtle);text-align: center;font-size: 100px;font-weight: bold;">1</h4>
+                        </div>
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-light-border-subtle);width: 250px;font-size: 25px;border: 1px solid var(--bs-tertiary-color);border-top-left-radius: 0px;border-top-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-tertiary-color);height: 150px;">
+                            <h1 id="h-4" class="h1" style="text-align: center;font-size: 25px;font-weight: bold;">Obten tu numero de seguridad social</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://serviciosdigitales.imss.gob.mx/gestionAsegurados-web-externo/vigencia" target="_blank" style="text-decoration: none;">
+                    <div class="card" style="border-radius: 10px;width: 250px;box-shadow: inset 0px 0px var(--bs-light-text-emphasis);border-color: var(--bs-tertiary-color);margin: auto;">
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-paleta-verde);width: 250px;font-size: 25px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-secondary-color);height: 130px;">
+                            <h4 class="card-title" style="color: var(--bs-light-bg-subtle);text-align: center;font-size: 100px;font-weight: bold;">2</h4>
+                        </div>
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-light-border-subtle);width: 250px;font-size: 25px;border: 1px solid var(--bs-tertiary-color);border-top-left-radius: 0px;border-top-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-tertiary-color);height: 150px;">
+                            <h1 id="h-5" class="h1" style="text-align: center;font-weight: bold;font-size: 25px;">Descarga la vigencia de derechos</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <button class="btnModal-proceso-constancia" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#CorreoIMSSModal">
+                    <div class="card" style="border-radius: 10px;width: 250px;box-shadow: inset 0px 0px var(--bs-light-text-emphasis);border-color: var(--bs-tertiary-color);margin: auto;">
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-paleta-verde);width: 250px;font-size: 25px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-secondary-color);height: 130px;">
+                            <h4 class="card-title" style="color: var(--bs-light-bg-subtle);text-align: center;font-size: 100px;font-weight: bold;">3</h4>
+                        </div>
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-light-border-subtle);width: 250px;font-size: 25px;border: 1px solid var(--bs-tertiary-color);border-top-left-radius: 0px;border-top-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-tertiary-color);height: 150px;">
+                            <h1 id="h-6" class="h1" style="text-align: center;font-weight: bold;font-size: 25px;">Hacer solicitud de alta vía correo</h1>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col">
+                <button class="btnModal-proceso-constancia" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#RespuestaCorreoModal">
+                    <div class="card" style="border-radius: 10px;width: 250px;box-shadow: inset 0px 0px var(--bs-light-text-emphasis);border-color: var(--bs-tertiary-color);margin: auto;">
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-paleta-verde);width: 250px;font-size: 25px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-secondary-color);height: 130px;">
+                            <h4 class="card-title" style="color: var(--bs-light-bg-subtle);text-align: center;font-size: 100px;font-weight: bold;">4</h4>
+                        </div>
+                        <div class="card-body" style="border-radius: 10px;background: var(--bs-light-border-subtle);width: 250px;font-size: 25px;border: 1px solid var(--bs-tertiary-color);border-top-left-radius: 0px;border-top-right-radius: 0px;box-shadow: 0px 0px 5px var(--bs-tertiary-color);height: 150px;">
+                            <h1 id="h-7" class="h1" style="text-align: center;font-weight: bold;font-size: 25px;">Espera respuesta vía correo</h1>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="div-titles-heading sections" id="beca-section">
+                    <h1 class="fw-bolder text-dark titles-heading">BECAS</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 30px;">
+        <div class="row">
+            <div class="col">
+                <p style="font-size: 20px;text-align: justify;">La Universidad Tecnológica de León, cuenta con un Sistema de Becas Internas, así mismo pone a disposición del alumnado diferentes Programas de Becas Externas, apoyos económicos y en especie; que en conjunto con diversos organismos externos, tienen como objetivo brindar apoyo al estudiantado para que pueda continuar con su preparación académica, aminorizando los factores económicos de deserción, para que las cuestiones financieras no sean una limitante para finalizar sus estudios.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 30px;">
+        <div class="row row-becas">
+            <div class="col column">
+                <div class="hijo">
+                    <div class="card" style="border-radius: 10px;width: 500px;margin: 0px auto;">
+                        <div class="card-body" style="background: var(--bs-paleta-azul);border-radius: 10px;width: 500px;">
+                            <h4 class="card-title" style="color: var(--bs-light);font-weight: bold;text-align: center;">BECAS INTERNAS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="border-radius: 10px;width: 500px;margin: auto;">
+                    <div class="card-body" style="background: var(--bs-paleta-azul);border-radius: 10px;width: 500px;margin: auto;">
+                        <h4 class="card-title" style="color: var(--bs-light);font-weight: bold;text-align: center;">SERVICIO BECARIO</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding-top: 20px;">
+        <div class="row">
+            <div class="col" style="box-shadow: 0px 0px;">
+                <div class="card" style="width: 500px;margin: auto;box-shadow: 0px 0px;padding: -17px;">
+                    <div class="card-body" style="width: 500px;margin: auto;border-bottom: 1px solid var(--bs-paleta-verde);height: 112.375px;">
+                        <div style="width: 250px;float: left;">
+                            <h4 style="width: 250px;float: right;font-size: 18px;">Convocatoria de becas</h4>
+                        </div>
+                        <div style="overflow: hidden;padding-left: 15px;width: 200px;"><button class="btn btn-primary" type="button" style="background: #942C12;font-weight: bold;">Cerrada</button></div>
+                    </div>
+                    <div class="card-body" style="width: 500px;height: 101.1875px;">
+                        <div style="width: 250px;float: left;">
+                            <h4 style="width: 250px;float: right;font-size: 18px;">Beca alimenticia</h4>
+                        </div>
+                        <div style="overflow: hidden;padding-left: 15px;width: 200px;"><button class="btn btn-primary" type="button" style="background: #942C12;font-weight: bold;">Cerrada</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 500px;margin: auto;box-shadow: 0px 0px;">
+                    <div class="card-body" style="width: 500px;margin: auto;border-bottom: 1px solid var(--bs-paleta-verde);height: 112.375px;">
+                        <div style="width: 250px;float: left;">
+                            <h4 style="width: 250px;float: right;font-size: 18px;">Convocatoria de Registro de Proyecto/Personal Administrativo y Académico UTL</h4>
+                        </div>
+                        <div style="overflow: hidden;padding-left: 15px;width: 200px;"><button class="btn btn-primary" type="button" style="background: #942C12;font-weight: bold;">Cerrada</button></div>
+                    </div>
+                    <div class="card-body" style="width: 500px;height: 101.1875px;">
+                        <div style="width: 250px;float: left;">
+                            <h4 style="width: 250px;float: right;font-size: 18px;">Proceso de Servicio Becario/Alumnado Becado</h4>
+                        </div>
+                        <div style="overflow: hidden;padding-left: 15px;width: 200px;"><button class="btn btn-primary" type="button" style="background: #942C12;font-weight: bold;">Cerrada</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="padding: 30px;">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="background: var(--bs-paleta-azul);width: 1275px;">
+                    <div class="card-body" style="border-radius: 10px;width: 1275px;">
+                        <h4 class="card-title" style="color: var(--bs-light);font-weight: bold;text-align: center;">BECAS EXTERNAS</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="buttons-becas">
+        <div class="row" style="align-items: initial;">
+            <div class="col" id="button-1">
+                <div class="card" style="border-radius: 10px;width: 300px;margin: auto;">
+                    <div class="card-body" style="background: #942C12;border-radius: 10px;width: 300px;/*margin: auto;*/">
+                        <h4 class="card-title" style="color: var(--bs-light);font-weight: bold;text-align: center;">MUNICIPALES</h4>
+                    </div>
+                </div>
+                <div class="card" style="width: 300px;/*padding: 17px;*/border-width: 0px;border-bottom-width: 0px;padding-top: 20px;">
+                    <div><button class="btn btn-secondary" type="button" style="font-weight: bold;width: 300PX;">No hay convocatorias<br>Disponibles</button></div>
+                </div>
+            </div>
+            <div class="col" id="button-2">
+                <div class="card" style="border-radius: 10px;width: 300px;margin: auto;">
+                    <div class="card-body" style="background: #942C12;border-radius: 10px;width: 300px;margin: auto;">
+                        <h4 class="card-title" style="color: var(--bs-light);font-weight: bold;text-align: center;">ESTATALES</h4>
+                    </div>
+                </div>
+                <div class="card" style="width: 300px;/*padding: 17px;*/border-width: 0px;border-bottom-width: 0px;">
+                    <div style="padding-top: 20px;"><button class="btn btn-secondary" type="button" style="font-weight: bold;width: 300PX;">No hay convocatorias<br>Disponibles</button></div>
+                </div>
+            </div>
+            <div class="col" id="button-3">
+                <div class="card" style="border-radius: 10px;width: 300px;margin: auto;">
+                    <div class="card-body" style="background: #942C12;border-radius: 10px;width: 300px;margin: auto;">
+                        <h4 class="card-title" style="color: var(--bs-light);font-weight: bold;text-align: center;">FEDERALES</h4>
+                    </div>
+                </div>
+                <div class="card" style="width: 300px;/*padding: 17px;*/border-width: 0px;border-bottom-width: 0px;padding-top: 20px;"><button class="btn btn-secondary" type="button" style="font-weight: bold;width: 300PX;">No hay convocatorias<br>Disponibles</button></div>
+            </div>
+            <div class="col" id="button-4">
+                <div class="card" style="border-radius: 10px;width: 300px;margin: auto;">
+                    <div class="card-body" style="background: #942C12;border-radius: 10px;width: 300px;margin: auto;">
+                        <h4 class="card-title" style="color: var(--bs-light);font-weight: bold;text-align: center;">PARTICULARES</h4>
+                    </div>
+                </div>
+                <div class="card" style="width: 300px;/*padding: 17px;*/border-width: 0px;border-bottom-width: 0px;padding-top: 20px;"><button class="btn btn-secondary" type="button" style="font-weight: bold;width: 300PX;">No hay convocatorias<br>Disponibles</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="img-footer-utl" style="padding: 0;padding-top: 30px;"><img class="img-footer-utl" src="assets/img/footer-logo_2022.jpg"></div>
+    <footer class="text-white footer1" style="background: var(--bs-paleta-azul);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6 text-white footer-title-link" style="text-align:center;">INSTITUCIÓN</h3>
+                    <ul class="list-unstyled">
+                        <li style="text-align:center;"><a class="link-light" href="https://transparencia.guanajuato.gob.mx/transparencia/informacion_publica_pordependencia.php?dependencia=52">Transparencia</a></li>
+                        <li style="text-align:center;"><a class="link-light" href="https://www.utleon.edu.mx/resource/img/imagenes/utl_datos/POA%202022.pdf">UTL en cifras</a></li>
+                        <li style="text-align:center;"><a class="link-light" href="https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp" style="text-align:center;">¿Quieres trabajar con nosotros?</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6 text-white footer-title-link" style="text-align:center;">ESCOLARES</h3>
+                    <ul class="list-unstyled">
+                        <li style="text-align:center;"><a class="link-light" href="pg-estudiante.html#beca-section">Becas</a></li>
+                        <li style="text-align:center;"><a class="link-light" href="pg-quienes-somos.html">¿Quiénes somos?</a></li>
+                        <li style="text-align:center;"><a class="link-light" href="https://www.utleon.edu.mx/resource/documentos/CIV_Solicitud%202%20Politicas%20de%20carga%20acad%C3%A9mica.pdf">Normativa</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6 text-white footer-title-link" style="text-align:center;">CONTÁCTANOS</h3>
+                    <ul class="list-unstyled">
+                        <li style="text-align:center;"><a class="link-light" href="pg-aspirante.html#contact-section">Contácto Escolar</a></li>
+                        <li style="text-align:center;"><a class="link-light" href="pg-egresado.html#contact-section">Contácto CIEM</a></li>
+                        <li style="text-align:center;"><a class="link-light" href="pg-empresario.html#estadias-section">Contácto estadías</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6 text-white footer-title-link" style="text-align:center;">ENCUENTRANOS EN</h3>
+                    <ul class="list-unstyled">
+                        <li class="container-rs-icons">
+                            <a href="https://www.facebook.com/UTLmex/"><img class="rs-icons" src="assets/img/facebook-icon.png"/></a>
+                            <a href="https://www.youtube.com/watch?v=nBwhAYlqEzY"><img class="rs-icons" src="assets/img/youtube-icon.png" /></a>
+                            <a href="#"><img class="rs-icons" src="assets/img/whatsapp-icon.png"/></a>
+                            <a href="https://twitter.com/utlmex"><img class="rs-icons" src="assets/img/x-icon.png"/></a>
+                            <a href="https://www.instagram.com/utlmex/"><img class="rs-icons" src="assets/img/instagram-icon.png"/></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="text-center footer2" style="background: var(--bs-paleta-azul);">
+        <div class="container text-white d-block">
+            <p class="text-light mb-0">Blvd. Universidad Tecnológica #225 Col. San Carlos</p>
+            <p class="text-light mb-0 col-12">CP. 37670 León, Gto. Mex. | Tel (477) 710 00 20</p>
+            <ul class="list-inline">
+                <li class="list-inline-item list-inline-item me-4"><a class="link-light links-footer-small" href="https://utleon.edu.mx/resource/documentos/AVISO%20PRIVACIDAD%20SIMPLIFICADO-23.pdf">Aviso de privacidad simplificado</a></li>
+                <li class="list-inline-item list-inline-item"><a class="link-light links-footer-small" href="https://utleon.edu.mx/resource/documentos/AVISO%20PRIVACIDAD%20INTEGRAL%2023.pdf">Aviso de privacidad integral</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!--Modals-->
+    <!-- Modal PAGO -->
+    <div class="modal fade" id="PagoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5 text-white" id="PagoModalLabel">01 - PAGO</h1>
+                <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Ingresa a tu cuenta de SITO y descarga la referencia
+                        para realizar el pago, utiliza la siguiente ruta.
+                        <br>
+                        <b>1. Reinscripción y referencias de pago.</b>
+                        <br>
+                        <b class="sangria1">1.3 Otras Referencias</b>
+                        <br>
+                        <b class="sangria2">• Otros pagos</b>              
+                    </p>
+                    <br>
+                    <div class="container-fluid d-flex justify-content-center">
+                        <img src="assets/img/img-proceso-pago.png" alt="pago en sito" width="700px">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="RegistroModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5 text-white" id="PagoModalLabel">02 - REGISTRO</h1>
+                <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Llena la solicitud</h3>
+                    <br>
+                    <p>
+                        Ingresa y responde el formulario para conocer el tipo de constancia que necesitas.           
+                    </p>
+                    <br>
+                    <div class="container-fluid d-flex justify-content-center">
+                        <a class="btn btn-success" type="button" href="https://forms.office.com/Pages/ResponsePage.aspx?id=UmAYNWAxO0yUq1G0zZsRWMv6rZhoU_hPuV0zyLBjO_FUNjY1VFhHRFozUlI4T1dNWDlEVVJZMVBQOS4u">Ingresar al formulario</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="CorreoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5 text-white" id="PagoModalLabel">03 - Correo</h1>
+                <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Envia tu comprobante por correo</h3>
+                    <br>
+                    <p>
+                        Envía por correo electrónico el pago, la referencia de pago y una identificación con foto.           
+                    </p>
+                    
+                    <div class="container-fluid d-flex justify-content-center">
+                        <img src="assets/img/correos-contacto.png" alt="Correos de contacto" width="600px">
+                    </div>
+                    <br>
+                    <p>Este es el formato de correo que debe llevar.</p>
+                    <br>
+                    <div class="container-fluid d-flex justify-content-center">
+                        <img src="assets/img/formato-correo.png" alt="Formato de correo" width="600px">
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="EntregaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5 text-white" id="PagoModalLabel">04 - Entrega</h1>
+                <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        El tiempo de entrega es de 3 días laborales como máximo, posterior a la fecha de recepción del correo.
+                    </p>
+                        
+                        <b>¡NO HABRÁ CAMBIOS!</b>
+
+                        <br>
+                        <br>
+                        <p class="sangria2 text-danger">Si eliges la opción digital y posteriormente quieres cambiarla en físico, esta deberá ser gestionada nuevamente con costo y de acuerdo a los tiempos establecidos.</p> 
+                        <p class="sangria2">Antes de solicitar la constancia verifica con la persona o instancia (institución) en la que entregarás la constancia, si la requiere de manera física o digital.</p>
+                        <h4 class="text-danger">Hasta no recibir el correo se iniciará el proceso de elaboración.</h4>   
+                    <br>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modales Proceso IMSS-->
+    <div class="modal fade" id="CorreoIMSSModal" tabindex="-1" aria-labelledby="PagoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                <h1 class="modal-title fs-5 text-white" id="PagoModalLabel">Alta por medio de correo electrónico</h1>
+                <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Envía la vigencia de derechos en PDF a la  dirección de correo electrónico para realizar la solicitud  <b>btellez@utleon.edu.mx</b> con los siguientes datos:
+                    </p>
+                    <ul>
+                        <li><b>Matrícula</b></li>
+                    </ul>
+                    <ul>
+                        <li><b>Carrera</b></li>
+                    </ul>
+                    <ul>
+                        <li><b>Domicilio (calle y colonia)</b></li>
+                    </ul>
+                    <ul>
+                        <li><b>Código postal</b></li>
+                    </ul>
+                    <ul>
+                        <li><b>Municipio</b></li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="RespuestaCorreoModal" tabindex="-1" aria-labelledby="PagoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                <h1 class="modal-title fs-5 text-white" id="PagoModalLabel">Respuesta al trámite de IMSS</h1>
+                <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Se te informará la fecha en que deberás verificar si ya te encuentras registrado (a) con la UTL y deberás descargar nuevamente la vigencia de derechos.
+
+                        <br><br>Es necesario acudas a tu clínica para solicitar la cartilla de citas y concluir con el proceso.
+
+                        Verifica la clínica en el siguiente link:
+                    </p>
+                    <div class="container-fluid d-flex justify-content-center">
+                        <a class="btn btn-primary" type="button" href="http://www.imss.gob.mx/servicios-digitales/tutoriales/consulta-clinica" target="_blank">Consulta la clínica</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn-up">
+        <a href="#"><img src="assets/img/arrow-icon.png" alt="Flecha arriba"></a>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/general.js"></script>
+</body>
+
+</html>

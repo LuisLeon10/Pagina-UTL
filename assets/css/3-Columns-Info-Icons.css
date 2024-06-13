@@ -1,0 +1,92 @@
+* {
+  -webkit-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+  font-family: 'Roboto';
+  /*color: var(--bs-light-border-subtle) !important;*/
+}
+
+.login-card {
+  max-width: 350px;
+  padding: 40px 40px;
+}
+
+.login-card .profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  border-radius: 50%;
+}
+
+.login-card .profile-name-card {
+  font-size: 16px;
+  font-weight: regular;
+  text-align: center;
+  margin: 10px 0 0;
+  min-height: 1em;
+}
+
+.card {
+  /*float: left;*/
+  /*margin: auto;*/
+}
+
+.container-img-quienessomos {
+  display: flex;
+  justify-content: center;
+}
+
+.button-admin {
+  display: flex;
+  justify-content: center;
+}
+
+.aline-p {
+  display: inline;
+  font-size: 16px;
+}
+
+#anline-button {
+  display: inline;
+  padding-left: 20px;
+}
+
+.card-step {
+  padding-top: 20px;
+}
+
+.aline-card {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+}
+
+.h4-card {
+  display: flex;
+  justify-content: center;
+}
+
+.h4-card {
+  padding: 20px;
+}
+
+.anline-div {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-class {
+}
+
+#div-button {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.aline-h {
+  display: inline;
+}
+
