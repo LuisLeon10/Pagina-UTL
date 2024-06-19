@@ -434,3 +434,20 @@ footer .links-footer-small {
     .btn-up img{
       width: 40px;
     }
+
+    .tsu-div-container .offer{
+      width: 270px !important;
+    }
+
+@media (max-width: 1366px){
+  .nav-bar-links {
+    margin: 0rem 0.5rem !important;
+  }
+  .eje-style h4{
+    font-size: 18px !important;
+  }
+
+  .tsu-div-container .offer{
+    width: 250px !important;
+  }
+}
